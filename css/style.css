@@ -1,0 +1,94 @@
+.container {
+	padding-top: 50px;
+}
+
+iframe {
+	width: 100%;
+	max-width: 500px;
+	height: 300px;
+	border: 0;
+}
+
+img {
+	width: 100%;
+}
+
+.image-holder {
+	display: inline-block;
+	width: 25%;
+}
+
+.image-holder img {
+}
+
+.image-holder.left {
+	float: left;
+	padding: 0 8px 5px 0;
+}
+
+.image-holder.right {
+	float: right;
+	padding: 0 0 5px 8px;
+}
+
+p {
+	font-size: 1.35em;
+}
+
+.video-container {
+	clear: both;
+	text-align: center;
+}
+
+.island-list {
+	list-style: none;
+	padding: 0;
+}
+
+.island-list li {
+	float: left;
+	width: 50%;
+	font-size: 2em;
+	text-align: center;
+}
+
+.island-list li a {
+
+}
+
+.map-container {
+
+}
+
+.map-container img {
+}
+
+/* some responsive rules */
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+	
+}
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+	
+}
+
+@media screen and (min-width: 480px) and (max-width:800px) {
+	
+}
+
+@media screen and (min-width: 0px) and (max-width:480px) {
+	iframe {
+		max-width: 100%;
+		border: 0;
+	}
+
+	.image-holder {
+		width: 45%;
+	}
+
+	.island-list li {
+		float: none;
+		width: 100%;
+		border-bottom: 1px solid #ddd;
+	}
+}
